@@ -7,8 +7,10 @@ const app = new PIXI.Application({ background: '#1099bb', resizeTo: window });
 
 const container = new PIXI.Container();
 
-app.stage.addChild(new CharacterSelection(app).getContainer());
-// app.stage.addChild(container);
+const characterSelection = new CharacterSelection(app);
+characterSelection.load();
+characterSelection.create();
+app.stage.addChild(characterSelection.getContainer());
 
 const chickens: Chicken[] = [];
 for (let i = 0; i < 5; i++) {

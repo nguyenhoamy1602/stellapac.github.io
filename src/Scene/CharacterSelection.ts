@@ -64,9 +64,13 @@ class CharacterSelectionScene {
 
   // Create the character sprites
   private createCharacters(): void {
-    for (const character of this.characters) {
+    this.characters.forEach((character, index) => {
+      character.position.set((this.app.screen.width / 4) * (index + 1), this.app.screen.height / 2);
+      console.log({ character, index });
+      character.anchor.set(0.5);
+      character.scale.set(20);
       this.container.addChild(character);
-    }
+    });
     this.selectCharacter(this.selectedCharacterIndex);
   }
 

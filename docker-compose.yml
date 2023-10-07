@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  frontend:
+    container_name: otraai-frontend
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+      args:
+        - REACT_APP_MICROSOFT_CLIENT_ID=d8490dd0-bc15-4e9a-a055-705825c2a863
+        - REACT_APP_OTRAFY_ADVANCE=https://pages.otrafy.com/david-ai
+        - REACT_APP_OTRAFY_URL=https://www.otrafy.com
+        - REACT_APP_SECRET_KEY=93d307ec-3306-4fe1-a215-0497072dbb03
+        - REACT_APP_MIXPANEL_TOKEN=bd78cde9b65dd04635874c8f3461eeca
+    image: otrafy/otraai-frontend
+    ports:
+      - 80:80
+      - 443:443
+    restart: always

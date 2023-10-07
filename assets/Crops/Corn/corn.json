@@ -1,0 +1,196 @@
+{
+  "frames": {
+    "corn_16.png": {
+      "frame": { "x": 0, "y": 0, "w": 19, "h": 32 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 0, "w": 19, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_17.png": {
+      "frame": { "x": 0, "y": 32, "w": 19, "h": 32 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 0, "w": 19, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_18.png": {
+      "frame": { "x": 0, "y": 64, "w": 19, "h": 32 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 0, "w": 19, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_19.png": {
+      "frame": { "x": 0, "y": 96, "w": 19, "h": 32 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 0, "w": 19, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_20.png": {
+      "frame": { "x": 0, "y": 128, "w": 19, "h": 32 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 0, "w": 19, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_15.png": {
+      "frame": { "x": 0, "y": 160, "w": 19, "h": 31 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 1, "w": 19, "h": 31 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_14.png": {
+      "frame": { "x": 0, "y": 191, "w": 19, "h": 29 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 3, "w": 19, "h": 29 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_13.png": {
+      "frame": { "x": 0, "y": 220, "w": 19, "h": 27 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 5, "w": 19, "h": 27 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_12.png": {
+      "frame": { "x": 0, "y": 247, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 8, "y": 7, "w": 18, "h": 25 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_11.png": {
+      "frame": { "x": 0, "y": 272, "w": 18, "h": 23 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 8, "y": 9, "w": 18, "h": 23 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_10.png": {
+      "frame": { "x": 0, "y": 295, "w": 18, "h": 22 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 8, "y": 10, "w": 18, "h": 22 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_9.png": {
+      "frame": { "x": 0, "y": 317, "w": 17, "h": 18 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 9, "y": 14, "w": 17, "h": 18 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_8.png": {
+      "frame": { "x": 0, "y": 335, "w": 17, "h": 17 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 9, "y": 15, "w": 17, "h": 17 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_7.png": {
+      "frame": { "x": 0, "y": 352, "w": 16, "h": 16 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 10, "y": 16, "w": 16, "h": 16 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_6.png": {
+      "frame": { "x": 0, "y": 368, "w": 14, "h": 15 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 10, "y": 17, "w": 14, "h": 15 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_5.png": {
+      "frame": { "x": 0, "y": 383, "w": 12, "h": 13 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 10, "y": 19, "w": 12, "h": 13 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_4.png": {
+      "frame": { "x": 0, "y": 396, "w": 12, "h": 11 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 10, "y": 21, "w": 12, "h": 11 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_3.png": {
+      "frame": { "x": 0, "y": 408, "w": 12, "h": 8 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 10, "y": 24, "w": 12, "h": 8 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_2.png": {
+      "frame": { "x": 0, "y": 420, "w": 12, "h": 6 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 10, "y": 26, "w": 12, "h": 6 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "corn_1.png": {
+      "frame": { "x": 0, "y": 432, "w": 12, "h": 4 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 10, "y": 28, "w": 12, "h": 4 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    }
+  },
+  "animations": {
+    "grow": [
+      "corn_1.png",
+      "corn_2.png",
+      "corn_3.png",
+      "corn_4.png",
+      "corn_5.png",
+      "corn_6.png",
+      "corn_7.png",
+      "corn_8.png",
+      "corn_9.png",
+      "corn_10.png",
+      "corn_11.png",
+      "corn_12.png",
+      "corn_13.png",
+      "corn_14.png",
+      "corn_15.png",
+      "corn_16.png",
+      "corn_17.png",
+      "corn_18.png",
+      "corn_19.png",
+      "corn_20.png"
+    ]
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "assets/Crops/Corn/corn.png",
+    "format": "RGBA8888",
+    "size": { "w": 19, "h": 444 },
+    "scale": 1
+  }
+}

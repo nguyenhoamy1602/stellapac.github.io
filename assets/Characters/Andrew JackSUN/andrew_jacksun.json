@@ -1,0 +1,82 @@
+{
+  "frames": {
+    "andrew_jacksun_up1.gif": {
+      "frame": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "andrew_jacksun_up2.gif": {
+      "frame": { "x": 0, "y": 32, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "andrew_jacksun_down1.gif": {
+      "frame": { "x": 0, "y": 64, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "andrew_jacksun_down2.gif": {
+      "frame": { "x": 0, "y": 96, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "andrew_jacksun_left1.gif": {
+      "frame": { "x": 0, "y": 128, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "andrew_jacksun_left2.gif": {
+      "frame": { "x": 0, "y": 160, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "andrew_jacksun_right1.gif": {
+      "frame": { "x": 0, "y": 192, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "andrew_jacksun_right2.gif": {
+      "frame": { "x": 0, "y": 224, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    }
+  },
+  "animations": {
+    "up": ["andrew_jacksun_up1.gif", "andrew_jacksun_up2.gif"],
+    "down": ["andrew_jacksun_down1.gif", "andrew_jacksun_down2.gif"],
+    "left": ["andrew_jacksun_left1.gif", "andrew_jacksun_left2.gif"],
+    "right": ["andrew_jacksun_right1.gif", "andrew_jacksun_right2.gif"]
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "assets/Characters/Andrew JackSUN/andrew_jacksun.png",
+    "format": "RGBA8888",
+    "size": { "w": 32, "h": 256 },
+    "scale": 1
+  }
+}

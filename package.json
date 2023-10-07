@@ -8,13 +8,15 @@
   },
   "type": "module",
   "scripts": {
-    "build": "yarn build-assets && tsc && vite build",
+    "build": "yarn build-assets && vite build",
     "build-assets": "assetpack",
+    "clean": "node cmds.js clean",
     "format": "prettier --write src/**/*.{ts}",
     "lint": "eslint --ext .js,.ts,.tsx src",
     "lint:fix": "eslint --ext .js,.ts,.tsx src --fix",
     "preview": "yarn build && vite preview --open",
-    "start": "yarn build-assets && vite --open"
+    "start": "yarn build-assets && vite --open",
+    "start-silent": "yarn build-assets && vite"
   },
   "dependencies": {
     "@pixi/sound": "^5.2.1",
@@ -41,5 +43,8 @@
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.11"
+  },
+  "engines": {
+    "node": "^18"
   }
 }

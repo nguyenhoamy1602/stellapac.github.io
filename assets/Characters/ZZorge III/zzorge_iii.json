@@ -1,0 +1,85 @@
+{
+  "frames": {
+    "zzorge_iii_up1.gif": {
+      "frame": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "zzorge_iii_up2.gif": {
+      "frame": { "x": 0, "y": 32, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "zzorge_iii_down1.gif": {
+      "frame": { "x": 0, "y": 64, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "zzorge_iii_down2.gif": {
+      "frame": { "x": 0, "y": 96, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "zzorge_iii_left1.gif": {
+      "frame": { "x": 0, "y": 128, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "zzorge_iii_left2.gif": {
+      "frame": { "x": 0, "y": 160, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "zzorge_iii_right1.gif": {
+      "frame": { "x": 0, "y": 192, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "zzorge_iii_right2.gif": {
+      "frame": { "x": 0, "y": 224, "w": 32, "h": 32 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    }
+  },
+  "animations": {
+    "up": ["zzorge_iii_up1.gif", "zzorge_iii_up2.gif"],
+    "down": ["zzorge_iii_down1.gif", "zzorge_iii_down2.gif"],
+    "left": ["zzorge_iii_left1.gif", "zzorge_iii_left2.gif"],
+    "right": ["zzorge_iii_right1.gif", "zzorge_iii_right2.gif"]
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "assets/Characters/ZZorge III/zzorge_iii.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 32,
+      "h": 256
+    },
+    "scale": 1
+  }
+}

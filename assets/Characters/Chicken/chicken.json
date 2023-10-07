@@ -1,148 +1,52 @@
 {
   "frames": {
     "tile002.png": {
-      "frame": {
-        "x": 0,
-        "y": 0,
-        "w": 13,
-        "h": 12
-      },
+      "frame": { "x": 0, "y": 0, "w": 13, "h": 12 },
       "rotated": false,
       "trimmed": true,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 3,
-        "w": 13,
-        "h": 12
-      },
-      "sourceSize": {
-        "w": 16,
-        "h": 16
-      },
-      "pivot": {
-        "x": 0.5,
-        "y": 0.5
-      }
+      "spriteSourceSize": { "x": 0, "y": 3, "w": 13, "h": 12 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "pivot": { "x": 0.5, "y": 0.5 }
     },
     "tile004.png": {
-      "frame": {
-        "x": 13,
-        "y": 0,
-        "w": 13,
-        "h": 12
-      },
+      "frame": { "x": 13, "y": 0, "w": 13, "h": 12 },
       "rotated": false,
       "trimmed": true,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 3,
-        "w": 13,
-        "h": 12
-      },
-      "sourceSize": {
-        "w": 16,
-        "h": 16
-      },
-      "pivot": {
-        "x": 0.5,
-        "y": 0.5
-      }
+      "spriteSourceSize": { "x": 0, "y": 3, "w": 13, "h": 12 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "pivot": { "x": 0.5, "y": 0.5 }
     },
     "tile003.png": {
-      "frame": {
-        "x": 26,
-        "y": 0,
-        "w": 11,
-        "h": 13
-      },
+      "frame": { "x": 26, "y": 0, "w": 11, "h": 13 },
       "rotated": true,
       "trimmed": true,
-      "spriteSourceSize": {
-        "x": 1,
-        "y": 2,
-        "w": 11,
-        "h": 13
-      },
-      "sourceSize": {
-        "w": 16,
-        "h": 16
-      },
-      "pivot": {
-        "x": 0.5,
-        "y": 0.5
-      }
+      "spriteSourceSize": { "x": 1, "y": 2, "w": 11, "h": 13 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "pivot": { "x": 0.5, "y": 0.5 }
     },
     "tile005.png": {
-      "frame": {
-        "x": 39,
-        "y": 0,
-        "w": 11,
-        "h": 13
-      },
+      "frame": { "x": 39, "y": 0, "w": 11, "h": 13 },
       "rotated": true,
       "trimmed": true,
-      "spriteSourceSize": {
-        "x": 1,
-        "y": 2,
-        "w": 11,
-        "h": 13
-      },
-      "sourceSize": {
-        "w": 16,
-        "h": 16
-      },
-      "pivot": {
-        "x": 0.5,
-        "y": 0.5
-      }
+      "spriteSourceSize": { "x": 1, "y": 2, "w": 11, "h": 13 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "pivot": { "x": 0.5, "y": 0.5 }
     },
     "tile000.png": {
-      "frame": {
-        "x": 52,
-        "y": 0,
-        "w": 11,
-        "h": 12
-      },
+      "frame": { "x": 52, "y": 0, "w": 11, "h": 12 },
       "rotated": true,
       "trimmed": true,
-      "spriteSourceSize": {
-        "x": 1,
-        "y": 3,
-        "w": 11,
-        "h": 12
-      },
-      "sourceSize": {
-        "w": 16,
-        "h": 16
-      },
-      "pivot": {
-        "x": 0.5,
-        "y": 0.5
-      }
+      "spriteSourceSize": { "x": 1, "y": 3, "w": 11, "h": 12 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "pivot": { "x": 0.5, "y": 0.5 }
     },
     "tile001.png": {
-      "frame": {
-        "x": 64,
-        "y": 0,
-        "w": 11,
-        "h": 12
-      },
+      "frame": { "x": 64, "y": 0, "w": 11, "h": 12 },
       "rotated": true,
       "trimmed": true,
-      "spriteSourceSize": {
-        "x": 1,
-        "y": 3,
-        "w": 11,
-        "h": 12
-      },
-      "sourceSize": {
-        "w": 16,
-        "h": 16
-      },
-      "pivot": {
-        "x": 0.5,
-        "y": 0.5
-      }
+      "spriteSourceSize": { "x": 1, "y": 3, "w": 11, "h": 12 },
+      "sourceSize": { "w": 16, "h": 16 },
+      "pivot": { "x": 0.5, "y": 0.5 }
     }
   },
   "animations": {
@@ -153,10 +57,7 @@
     "version": "0.6.7",
     "image": "assets/Characters/Chicken/chicken.png",
     "format": "RGBA8888",
-    "size": {
-      "w": 76,
-      "h": 12
-    },
+    "size": { "w": 76, "h": 12 },
     "scale": 1
   }
 }

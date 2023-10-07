@@ -1,0 +1,71 @@
+{
+  "frames": {
+    "wheat_6.png": {
+      "frame": { "x": 0, "y": 0, "w": 19, "h": 32 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 0, "w": 19, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "wheat_7.png": {
+      "frame": { "x": 0, "y": 32, "w": 19, "h": 32 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 0, "w": 19, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "wheat_5.png": {
+      "frame": { "x": 0, "y": 64, "w": 19, "h": 30 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 7, "y": 2, "w": 19, "h": 30 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "wheat_4.png": {
+      "frame": { "x": 0, "y": 94, "w": 10, "h": 22 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 11, "y": 10, "w": 10, "h": 22 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "wheat_3.png": {
+      "frame": { "x": 0, "y": 116, "w": 10, "h": 15 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 11, "y": 17, "w": 10, "h": 15 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "wheat_2.png": {
+      "frame": { "x": 0, "y": 131, "w": 10, "h": 10 },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 11, "y": 22, "w": 10, "h": 10 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    },
+    "wheat_1.png": {
+      "frame": { "x": 0, "y": 141, "w": 10, "h": 5 },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": { "x": 11, "y": 27, "w": 10, "h": 5 },
+      "sourceSize": { "w": 32, "h": 32 },
+      "pivot": { "x": 0.5, "y": 0.5 }
+    }
+  },
+  "animations": {
+    "grow": ["wheat_1.png", "wheat_2.png", "wheat_3.png", "wheat_4.png", "wheat_5.png", "wheat_6.png", "wheat_7.png"]
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "assets/Crops/Wheat/wheat.png",
+    "format": "RGBA8888",
+    "size": { "w": 19, "h": 151 },
+    "scale": 1
+  }
+}

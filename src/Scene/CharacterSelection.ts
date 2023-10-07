@@ -1,4 +1,5 @@
 import * as PIXI from 'pixi.js';
+import PlanetarySelectionScene from './PlatenarySelection';
 
 // Define the character selection scene class
 class CharacterSelectionScene {
@@ -6,6 +7,7 @@ class CharacterSelectionScene {
   private container: PIXI.Container;
   private characters: PIXI.Sprite[];
   private selectedCharacterIndex: number;
+  private defaultScale = 20;
 
   constructor(app: PIXI.Application) {
     this.app = app;
@@ -24,7 +26,7 @@ class CharacterSelectionScene {
     this.createBackground();
     this.createTitle();
     this.createCharacters();
-    // this.createButtons();
+    this.createConfirmButton();
   }
 
   // Load the character sprites
@@ -35,8 +37,13 @@ class CharacterSelectionScene {
       'assets/Characters/basic/tile002.png',
     ];
 
-    this.characters = characterTextures.map((texture) => {
-      return new PIXI.Sprite(PIXI.Texture.from(texture));
+    this.characters = characterTextures.map((texture, index) => {
+      const character = new PIXI.Sprite(PIXI.Texture.from(texture));
+      character.on('click', () => {
+        this.selectCharacter(index);
+      });
+      character.eventMode = 'static';
+      return character;
     });
   }
 
@@ -66,24 +73,39 @@ class CharacterSelectionScene {
   private createCharacters(): void {
     this.characters.forEach((character, index) => {
       character.position.set((this.app.screen.width / 4) * (index + 1), this.app.screen.height / 2);
-      console.log({ character, index });
       character.anchor.set(0.5);
-      character.scale.set(20);
+      character.scale.set(this.defaultScale);
       this.container.addChild(character);
     });
     this.selectCharacter(this.selectedCharacterIndex);
   }
 
-  // Create the buttons
+  private createConfirmButton(): void {
+    const button = new PIXI.Text('Confirm', {
+      fontFamily: 'Arial',
+      fontSize: 48,
+      fill: 0xffffff,
+      align: 'center',
+    });
+    button.anchor.set(0.5);
+    button.position.set(this.app.screen.width / 2, this.app.screen.height - 100);
+    button.eventMode = 'static';
+    button.on('click', () => {
+      this.container.destroy();
+      this.app.stage.removeChildren();
+      this.app.stage.addChild(new PlanetarySelectionScene(this.app).getContainerAndInitialize());
+    });
+    this.container.addChild(button);
+  }
 
   // Select a character
   private selectCharacter(index: number): void {
     if (index < 0 || index >= this.characters.length) {
       return;
     }
-    this.characters[this.selectedCharacterIndex].scale.set(1);
+    this.characters[this.selectedCharacterIndex].scale.set(this.defaultScale);
     this.selectedCharacterIndex = index;
-    this.characters[this.selectedCharacterIndex].scale.set(1.2);
+    this.characters[this.selectedCharacterIndex].scale.set(this.defaultScale * 1.2);
   }
 
   // Get the scene container

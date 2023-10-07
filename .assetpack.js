@@ -6,22 +6,22 @@ import { pixiTexturePacker } from '@assetpack/plugin-texture-packer';
 import { webfont } from '@assetpack/plugin-webfont';
 
 export default {
-    entry: './raw-assets',
-    output: './public/',
-    cache: false,
-    plugins: {
-        webfont: webfont(),
-        compressJpg: compressJpg(),
-        compressPng: compressPng(),
-        audio: audio(),
-        json: json(),
-        texture: pixiTexturePacker({
-            texturePacker: {
-                removeFileExtension: true,
-            },
-        }),
-        manifest: pixiManifest({
-            output: './src/manifest.json',
-        }),
-    },
+  entry: './assets',
+  output: './public/',
+  cache: false,
+  plugins: {
+    webfont: webfont(),
+    compressJpg: compressJpg(),
+    compressPng: compressPng(),
+    audio: audio(),
+    json: json(),
+    texture: pixiTexturePacker({
+      texturePacker: {
+        removeFileExtension: true,
+      },
+    }),
+    manifest: pixiManifest({
+      output: './src/manifest.json',
+    }),
+  },
 };

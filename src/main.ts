@@ -11,6 +11,7 @@ const characterSelection = new CharacterSelection(app);
 characterSelection.load();
 characterSelection.create();
 app.stage.addChild(characterSelection.getContainer());
+// app.stage.addChild(container);
 
 const chickens: Chicken[] = [];
 for (let i = 0; i < 5; i++) {

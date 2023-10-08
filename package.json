@@ -8,16 +8,16 @@
   },
   "type": "module",
   "scripts": {
-    "build": "yarn build-assets && vite build",
+    "build": "npm run build-assets && vite build",
     "build-assets": "assetpack",
     "build:azure": "npm run build-assets && vite build",
     "clean": "node cmds.js clean",
     "format": "prettier --write src/**/*.{ts}",
     "lint": "eslint --ext .js,.ts,.tsx src",
     "lint:fix": "eslint --ext .js,.ts,.tsx src --fix",
-    "preview": "yarn build && vite preview --open",
-    "prod": "yarn build-assets && vite",
-    "start": "yarn build-assets && vite --open"
+    "preview": "npm run build && vite preview --open",
+    "prod": "npm run build-assets && vite",
+    "start": "npm run build-assets && vite --open"
   },
   "dependencies": {
     "@pixi/sound": "^5.2.1",

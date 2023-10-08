@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  frontend:
+    container_name: stellapac-frontend
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: stellapac/frontend
+    ports:
+      - 80:80
+      - 443:443
+    restart: always

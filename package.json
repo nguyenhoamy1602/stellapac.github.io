@@ -15,8 +15,8 @@
     "lint": "eslint --ext .js,.ts,.tsx src",
     "lint:fix": "eslint --ext .js,.ts,.tsx src --fix",
     "preview": "yarn build && vite preview --open",
-    "start": "yarn build-assets && vite --open",
-    "start-silent": "yarn build-assets && vite"
+    "prod": "yarn build-assets && vite",
+    "start": "yarn build-assets && vite --open"
   },
   "dependencies": {
     "@pixi/sound": "^5.2.1",

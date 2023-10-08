@@ -2,11 +2,10 @@ FROM node:18-alpine AS build
 WORKDIR /app
 
 # Install dependencies based on the preferred package manager
+COPY ["package.json", "yarn.lock", "./"]
+RUN yarn
 COPY . ./
-RUN \
-  yarn && \
-  yarn build
+RUN yarn build
 
 EXPOSE 80
-# start nginx
-CMD ["yarn", "start-silent"]
+CMD ["yarn", "prod"]

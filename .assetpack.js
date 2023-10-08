@@ -7,7 +7,7 @@ import { webfont } from '@assetpack/plugin-webfont';
 
 export default {
   entry: './assets',
-  output: './public/',
+  output: './dist/assets',
   cache: false,
   plugins: {
     webfont: webfont(),

@@ -10,6 +10,7 @@
   "scripts": {
     "build": "yarn build-assets && vite build",
     "build-assets": "assetpack",
+    "build:azure": "npm run build-assets && vite build",
     "clean": "node cmds.js clean",
     "format": "prettier --write src/**/*.{ts}",
     "lint": "eslint --ext .js,.ts,.tsx src",
